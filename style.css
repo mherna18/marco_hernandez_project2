@@ -1,7 +1,7 @@
 nav {
 	list-style-type: none;
-	margin: none;
-	padding: none;
+	margin: 0;
+	padding: 0;
 	background-color: #cc0000;
 	font-size: 2em;
 	text-align: center;
@@ -48,11 +48,10 @@ p {
 }
 
 #sidebar {
+	list-style-type: none;
 	display: block;
 	font-weight: bold;
 	text-decoration: none;
-	list-style-type: none;
 	margin: 0;
 	padding: 20px 0 30px 20px;
-	text-align: right;
 }

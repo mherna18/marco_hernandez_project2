@@ -101,15 +101,35 @@ h3 {
 */
 #sports {
 	display: block;
-	width: 700px;
+	width: 900px;
 	height: 180px;
 }
 
-#sidebar {
-	list-style-type: none;
-	display: block;
-	font-weight: bold;
-	text-decoration: none;
-	margin: 0;
-	padding: 20px 0 30px 20px;
+#teams {
+	float: right;
+	border: 7px solid green;
+	margin-right: 4em;
+}
+
+@media all and (max-width: 530px) and (min-width: 420px) {
+#teams {
+	margin-right: 50px;
+	width: 750px;
+}
+}
+
+#sportstab {
+	font-size: 24px;
+	background-color: #4198f4;
+	width: 650px;
+	text-align: center;
+	padding: 0 0 0 50px;
+	margin-left: 100px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+#sportstab tr:hover {
+  background-color: orange;
+  color: #000;
 }

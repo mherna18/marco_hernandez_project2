@@ -8,11 +8,20 @@ nav {
 	background-color: #cc0000;
 	font-size: 2em;
 	text-align: center;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: #000;
+  text-decoration: none;
 }
 
 h1 {
 	font-family: 'Anton', sans-serif;
 	font-size: 4em;
+	margin: 0 0 0 40px;
 }
 
 body {
@@ -20,7 +29,7 @@ body {
 }
 
 p {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 /*

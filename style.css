@@ -59,8 +59,41 @@ p {
 /*
 	Resume formats
 */
+h3 {
+	text-align: center;
+	background-color: green;
+}
+
 #resume {
 	padding: 0 0 0 30px;
+}
+
+#tableco {
+	background-color: #85bb65;
+	margin-left: 70px;
+}
+
+#tableco2 {
+	background-color: #77b353;
+	margin-left: 70px;
+}
+
+#tableco3 {
+	background-color: #85bb65;
+	margin-left: 70px;
+}
+
+#tableco4 {
+	background-color: #77b353;
+	margin-left: 70px;
+}
+
+#tableb {
+	margin-left: 70px;
+}
+
+#tableb2 {
+	margin-left: 70px;
 }
 
 /*

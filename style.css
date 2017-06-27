@@ -1,3 +1,6 @@
+/*
+	All pages formats
+*/
 nav {
 	list-style-type: none;
 	margin: 0;
@@ -20,6 +23,9 @@ p {
 	font-size: 18px;
 }
 
+/*
+	Index formats
+*/
 #home-text {
 	display: block;
 	width: 400px;
@@ -36,10 +42,16 @@ p {
 	text-align: center;
 }
 
+/*
+	Resume formats
+*/
 #resume {
 	padding: 0 0 0 30px;
 }
 
+/*
+	Sports formats
+*/
 #sports {
 	display: block;
 	width: 700px;
